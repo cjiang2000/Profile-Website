@@ -1,0 +1,31 @@
+#Butt {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    cursor:pointer;
+}
+#Spag {
+  position:relative;
+  height:100%;
+  width:100%;
+  margin:0 auto;
+}
+#Spag img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#Spag img.transparent {
+	opacity:0;
+}
+a{
+  color: white;
+}
+div.recipes {
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
